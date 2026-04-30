@@ -867,3 +867,37 @@ textarea {
   cursor: pointer;
   transition: transform 180ms ease, background-color 180ms ease;
 }
+@media (max-width: 768px) {
+  .resume-entry {
+    padding: 18px;
+  }
+
+  .resume-entry__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .resume-button {
+    align-self: stretch;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .site-footer__bottom {
+    text-align: center;
+    font-size: 12px;
+  }
+  .nav-link {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+ @media (max-width: 768px) {
+  .site-footer__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* two columns */
+    /* gap: 16px; */
+    padding-left: 20px;
+  }
+}
+}

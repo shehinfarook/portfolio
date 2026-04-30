@@ -5,11 +5,6 @@ const Footer = () => {
   return (
     <footer className="site-footer">
       <div className="site-footer__grid">
-        {/* <div>
-          <p className="eyebrow">Portfolio</p>
-          <h2>{site.name}</h2>
-          <p className="muted-copy">{site.intro}</p>
-        </div> */}
         <div>
           <p className="eyebrow">Navigate</p>
           <div className="footer-links">

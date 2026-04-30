@@ -12,7 +12,7 @@ const Home = () => {
     <main className="page-shell">
       <section className="hero-panel">
         <div className="hero-panel__copy">
-          <p className="eyebrow">Portfolio 2026</p>
+          <p className="eyebrow">Portfolio</p>
           <h1>Software Engineer</h1>
           <p className="lead-copy">{site.intro}</p>
          {/* <strong> <ul className="chip-row">
