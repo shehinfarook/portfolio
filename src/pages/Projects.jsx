@@ -3,7 +3,7 @@ import CTA from "../components/CTA";
 import ProjectCard from "../components/ProjectCard";
 import { projects } from "../data/projects";
 
-const filters = ["All", "Full Stack", "Frontend", "UI System"];
+const filters = ["All", "Full Stack", "Frontend"];
 
 const Projects = () => {
   const [filter, setFilter] = useState("All");

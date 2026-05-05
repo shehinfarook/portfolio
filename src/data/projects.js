@@ -1,8 +1,8 @@
 export const projects = [
   {
     id: "movie-streaming-platform",
-    title: "Movie Booking & Streaming Platform",
-    category: "Full Stack (Team Project)",
+    title: "Movie Booking & Streaming Platform (Team Project)",
+    category: "Full Stack",
     year: "2026",
     
     summary:
@@ -11,7 +11,7 @@ export const projects = [
     description:
       "Worked as part of a team to develop a movie booking and streaming platform using the MERN stack. The application allows users to explore movies, book tickets, and access streaming features through a responsive interface. Focused on both frontend development and backend integration, ensuring smooth data flow and user experience.",
     
-    image: "/hero.png",
+    // image: "/projects/movie-streaming-platform.png",
     
     stack: ["React", "Node.js", "Express.js", "MongoDB", "JWT Authentication", "REST API"],
     
@@ -75,14 +75,14 @@ export const projects = [
   {
   id: "kiddy-ecommerce",
   title: "Kiddy E-Commerce",
-  category: "Frontend(API-driven)",
+  category: "Frontend",
   year: "2026",
   summary: "A frontend e-commerce application built using React, fetching real-time product data from an external API.",
   
   description:
     "Developed a responsive e-commerce interface that displays products, categories, and detailed views by integrating the FakeStore API. Focused on clean UI, component structure, and smooth user experience.",
   
-  image: "/hero.png",
+  // image: "/projects/kiddy-ecommerce.png",
   
   stack: ["React", "JavaScript (ES6+)", "FakeStore API", "CSS / Tailwind"],
   
