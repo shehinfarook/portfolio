@@ -3,7 +3,7 @@ import { image, summary } from "framer-motion/client";
 export const site = {
   name: "Shehin Farook",
   shortName: "Shehin",
-  role: "Full-stack Engineer",
+  role: "Software Engineer",
   intro:
     "Full-stack MERN developer focused on building responsive frontends and scalable backend systems with clean architecture.",
   location: "Kerala, India",

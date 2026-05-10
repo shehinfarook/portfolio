@@ -13,7 +13,7 @@ const Home = () => {
       <section className="hero-panel">
         <div className="hero-panel__copy">
           <p className="eyebrow">Portfolio</p>
-          <h1>Software Engineer</h1>
+          <h1>Full-Stack Engineer</h1>
           <p className="lead-copy">{site.intro}</p>
          {/* <strong> <ul className="chip-row">
             
