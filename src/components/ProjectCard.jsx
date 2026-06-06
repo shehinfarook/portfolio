@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
-import { FiExternalLink } from "react-icons/fi";
+// import { FiExternalLink } from "react-icons/fi";
+import { MdOutlineLink } from "react-icons/md";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -27,11 +28,16 @@ const ProjectCard = ({ project }) => {
   }}>
             <div className="github-icon"><FaGithub size={18}/></div>   GitHub
             </a> {""}
-            <a href={project.view_site} target="_blank" rel="noopener noreferrer" className="button button--secondary flex items-center"   
-            onClick={(e) => {e.stopPropagation();
-            }}>
-             <div className="external-link"><FiExternalLink size={18} /></div>   View Site
-            </a>
+            <a href={project.view_site || "#"}
+            onClick={(e) => {
+            if (!project.view_site) {
+            e.preventDefault();
+            alert("This project is not deployed yet.");
+    }
+  }}
+    className="button button--secondary">
+    <div className="external-link"><MdOutlineLink size={18} /></div>   View Site
+</a>
           </div>
         } 
             </div>

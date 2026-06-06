@@ -71,9 +71,10 @@ textarea {
 
 .github-icon, .external-link {
   display: inline-flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 6px;
   padding-right: 8px;
+  padding-top: 2px;
 }
 
 

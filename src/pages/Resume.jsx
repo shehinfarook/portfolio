@@ -9,8 +9,8 @@ const Resume = () => {
   // navigate('/images/cv.pdf');
   const handleDownload = () => {
   const link = document.createElement("a");
-  link.href = "/images/cv.pdf";
-  link.download = "Shehin_Farook_CV.pdf";
+  link.href = "/shehinfarook.pdf";
+  link.download = "shehinfarook.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

@@ -2,7 +2,8 @@ import { Link, useParams } from "react-router-dom";
 import CTA from "../components/CTA";
 import { projects } from "../data/projects";
 import { FaGithub } from "react-icons/fa";
-import { FiExternalLink } from "react-icons/fi";
+// import { FiExternalLink } from "react-icons/fi";
+import { MdOutlineLink } from "react-icons/md";
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -38,7 +39,7 @@ const ProjectDetail = () => {
             <div className="github-icon"><FaGithub size={18}/></div>   GitHub
             </a> {""}
             <a href={project.view_site} target="_blank" rel="noopener noreferrer" className="button button--secondary">
-             <div className="external-link"><FiExternalLink size={18} /></div>   View Site
+             <div className="external-link"><MdOutlineLink size={18} /></div>   View Site
             </a>
           </div>
         </ul>

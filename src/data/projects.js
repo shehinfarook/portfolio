@@ -34,6 +34,28 @@ github: "https://github.com/shehinfarook/hotel_management",
 view_site: "https://hotel-management-higi1pnlk-shehin-farooks-projects.vercel.app"
 
 },
+{
+  id: "fraganzia-e-commerce",
+  title: "Fragranzia E-Commerce",
+  category: "Full Stack",
+  year: "2026",
+  summary: "Fragranzia is a modern e-commerce platform for discovering and purchasing premium fragrances with a smooth, user-friendly shopping experience.",
+  description:
+    "Fragranzia is a MERN-based e-commerce platform featuring dynamic product management, cart functionality, and secure JWT authentication for user sessions. The backend handles API requests, authentication, and data persistence, while the frontend delivers a responsive and intuitive shopping experience.",
+  // image: "/projects/",
+  stack: ["React", "Express.js","JWT Authentication",  "MongoDB", "Node.js"],
+  metrics: ["Mobile-first layout", "Collection filtering", "Editorial product modules"],
+  challenge:
+"Managing user authentication, product data, and cart state across the application while ensuring smooth interaction between frontend and backend systems.",
+  solution:
+"Implemented JWT-based authentication for secure user sessions, built REST APIs for product and user management, and structured the frontend using reusable components with proper state handling for cart and user flows.",
+  outcome:
+"Built a scalable full-stack e-commerce platform that showcases strong backend integration, secure user flows, and a clean, responsive interface." ,
+ linkLabel: "Explore storefront case study",
+  feature: ["Product catalog with detailed pages","Add to cart and checkout flow","JWT-based authentication (login/signup, protected routes)","Responsive UI across devices", "Backend APIs for data and user management"],
+  github: "https://github.com/shehinfarook/fragranzia_ecommerce.git",
+  view_site: ""
+},
   {
     id: "movie-streaming-platform",
     title: "Movie Booking & Streaming Platform (Team Project)",
@@ -67,26 +89,7 @@ view_site: "https://hotel-management-higi1pnlk-shehin-farooks-projects.vercel.ap
       "Successfully delivered a functional full-stack platform demonstrating teamwork, MERN development skills, and the ability to handle real-world application complexity.",
     
     linkLabel: "View project details",
-  },
-  {
-    id: "intern-management-system",
-    title: "Comprehensive Intern Management System",
-    category: "Full Stack",
-    year: "2026",
-    summary: "A comprehensive system for managing internships and related activities.",
-    description:
-      "This full-stack web application streamlines internship program management with dual dashboards for students and administrators. Students can track their performance with interactive charts, manage payments, apply for leave, and receive real-time notifications, while admins can oversee student records, approve requests, and upload schedules seamlessly.",
-    image: "/projects/projectpic.png",
-    stack: [ "Express.js","React.js", "Node.js", "MongoDB", "REST API"],
-    metrics: [ "2 role-based views(Admin and User)", "Reusable UI blocks"],
-    challenge:
-      "The core challenge was students juggle assignments, daedlines, and attendance data across multiple platforms, leading to missed submissions and poor visibilty of perfomance in my Institute.",
-    solution:
-      "I used modular cards, clear metric grouping, and focused detail panels to create a calmer, more navigable dashboard.",
-    outcome:
-      "The result is a cleaner admin experience that presents key numbers quickly while still supporting deeper project analysis.",
-    linkLabel: "View dashboard story",
-  },
+  },  
   {
     id: "Fragranzia-e-commerce",
     title: "Fragranzia E-Commerce",
@@ -107,6 +110,26 @@ view_site: "https://hotel-management-higi1pnlk-shehin-farooks-projects.vercel.ap
    linkLabel: "Explore storefront case study",
     feature: ["Product catalog with detailed pages","Add to cart and checkout flow","JWT-based authentication (login/signup, protected routes)","Responsive UI across devices", "Backend APIs for data and user management"]
   },
+  {
+    id: "intern-management-system",
+    title: "Comprehensive Intern Management System",
+    category: "Full Stack",
+    year: "2026",
+    summary: "A comprehensive system for managing internships and related activities.",
+    description:
+      "This full-stack web application streamlines internship program management with dual dashboards for students and administrators. Students can track their performance with interactive charts, manage payments, apply for leave, and receive real-time notifications, while admins can oversee student records, approve requests, and upload schedules seamlessly.",
+    image: "/projects/projectpic.png",
+    stack: [ "Express.js","React.js", "Node.js", "MongoDB", "REST API"],
+    metrics: [ "2 role-based views(Admin and User)", "Reusable UI blocks"],
+    challenge:
+      "The core challenge was students juggle assignments, daedlines, and attendance data across multiple platforms, leading to missed submissions and poor visibilty of perfomance in my Institute.",
+    solution:
+      "I used modular cards, clear metric grouping, and focused detail panels to create a calmer, more navigable dashboard.",
+    outcome:
+      "The result is a cleaner admin experience that presents key numbers quickly while still supporting deeper project analysis.",
+    linkLabel: "View dashboard story",
+  },
+
   {
   id: "kiddy-ecommerce",
   title: "Kiddy E-Commerce",
