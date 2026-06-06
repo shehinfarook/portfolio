@@ -36,7 +36,8 @@ const ProjectCard = ({ project }) => {
     }
   }}
     className="button button--secondary">
-    <div className="external-link"><MdOutlineLink size={18} /></div>   View Site
+    <MdOutlineLink size={18} />
+  {project.view_site ? "View Site" : "Coming Soon"}
 </a>
           </div>
         } 

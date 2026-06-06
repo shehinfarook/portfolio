@@ -38,9 +38,17 @@ const ProjectDetail = () => {
             <a href={project.github} target="_blank" rel="noopener noreferrer" className="button button--primary">
             <div className="github-icon"><FaGithub size={18}/></div>   GitHub
             </a> {""}
-            <a href={project.view_site} target="_blank" rel="noopener noreferrer" className="button button--secondary">
-             <div className="external-link"><MdOutlineLink size={18} /></div>   View Site
-            </a>
+                        <a href={project.view_site || "#"}
+            onClick={(e) => {
+            if (!project.view_site) {
+            e.preventDefault();
+            alert("This project is not deployed yet.");
+    }
+  }}
+    className="button button--secondary">
+    <MdOutlineLink size={18} />
+  {project.view_site ? "View Site" : "Coming Soon"}
+</a>
           </div>
         </ul>
       </section>

@@ -128,6 +128,8 @@ view_site: "https://hotel-management-higi1pnlk-shehin-farooks-projects.vercel.ap
     outcome:
       "The result is a cleaner admin experience that presents key numbers quickly while still supporting deeper project analysis.",
     linkLabel: "View dashboard story",
+    github: "https://github.com/shehinfarook/mainproject",
+    view_site: ""
   },
 
   {
@@ -161,6 +163,8 @@ metrics: [
     "Delivered a clean and functional e-commerce interface demonstrating frontend development skills and API integration.",
   
   linkLabel: "View project",
+  github: "https://github.com/shehinfarook/kiddy-ecommerce",
+  view_site: ""
 },
 
 ];
