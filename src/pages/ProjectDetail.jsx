@@ -1,6 +1,8 @@
 import { Link, useParams } from "react-router-dom";
 import CTA from "../components/CTA";
 import { projects } from "../data/projects";
+import { FaGithub } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -30,6 +32,15 @@ const ProjectDetail = () => {
           {project.stack.map((item) => (
             <li key={item}>{item}</li>
           ))}
+          <br />
+          <div className="flex gap-3 pb-6 px-6">
+            <a href={project.github} target="_blank" rel="noopener noreferrer" className="button button--primary">
+            <div className="github-icon"><FaGithub size={18}/></div>   GitHub
+            </a> {""}
+            <a href={project.view_site} target="_blank" rel="noopener noreferrer" className="button button--secondary">
+             <div className="external-link"><FiExternalLink size={18} /></div>   View Site
+            </a>
+          </div>
         </ul>
       </section>
 

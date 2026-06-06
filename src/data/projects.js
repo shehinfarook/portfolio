@@ -1,5 +1,40 @@
 export const projects = [
   {
+id: "restaurant-ordering-system",
+title: "Restaurant Ordering System",
+category: "Full Stack",
+year: "2026",
+
+summary:
+"A full-stack restaurant ordering platform with dedicated User, Admin, and Super Admin modules for menu management, order processing, and system administration.",
+
+description:
+"Developed a full-stack restaurant ordering system featuring three user roles: Customer, Admin, and Super Admin. Customers can browse menus, add items to their cart, and place orders, while administrators can manage menus, monitor orders, and oversee platform operations through dedicated dashboards.",
+
+stack: ["React", "Node.js", "Express.js", "MongoDB"],
+
+metrics: [
+"Role-based access control for Users, Admins, and Super Admins",
+"Efficient order placement and management workflow",
+"Centralized dashboard for menu and order administration"
+],
+
+challenge:
+"Designing a scalable system that provides a smooth ordering experience for customers while offering efficient management tools for administrators.",
+
+solution:
+"Built a responsive React frontend and a RESTful backend using Node.js, Express.js, and MongoDB. Implemented role-based authentication, order management features, and centralized administrative controls.",
+
+outcome:
+"Successfully delivered a scalable restaurant management platform that simplifies online ordering, improves operational efficiency, and provides a seamless user experience.",
+
+linkLabel: "View Project",
+
+github: "https://github.com/shehinfarook/hotel_management",
+view_site: "https://hotel-management-higi1pnlk-shehin-farooks-projects.vercel.app"
+
+},
+  {
     id: "movie-streaming-platform",
     title: "Movie Booking & Streaming Platform (Team Project)",
     category: "Full Stack",
@@ -104,4 +139,5 @@ metrics: [
   
   linkLabel: "View project",
 },
+
 ];

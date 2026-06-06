@@ -42,12 +42,12 @@ const Projects = () => {
       </section>
 
       <section className="content-section split-layout">
-        <article className="glass-card">
+        {/* <article className="glass-card">
           <p className="eyebrow">What these projects highlight</p>
           <h3>Structured thinking, efficient systems, and production-ready solutions.</h3>
-        </article>
-        <article className="glass-card">
-          <p className="muted-copy">
+        </article> */}
+        <article className="glass-card project-last">
+          <p className="muted-copy ">
             Each project reflects my approach to full-stack development, combining frontend clarity with backend performance, API design, and scalable data handling.
           </p>
         </article>
