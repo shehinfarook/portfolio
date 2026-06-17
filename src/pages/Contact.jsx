@@ -16,6 +16,8 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           alert("Message recieved successfully! I will get back to you soon.");
+
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
