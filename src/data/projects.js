@@ -31,7 +31,7 @@ outcome:
 linkLabel: "View Project",
 
 github: "https://github.com/shehinfarook/hotel_management",
-view_site: "https://hotel-management-higi1pnlk-shehin-farooks-projects.vercel.app"
+view_site: "https://hotel-management-xi-nine.vercel.app/"
 
 },
 {
